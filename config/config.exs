@@ -4,9 +4,9 @@ use Mix.Config
 
 # Jira config
 config :jira,
-  host: System.get_env("JIRA_HOST"),
-  login: System.get_env("JIRA_LOGIN"),
-  password: System.get_env("JIRA_PASSWORD")
+  host: System.get_env("JIRA_HOST") || "",
+  login: System.get_env("JIRA_LOGIN") || "",
+  password: System.get_env("JIRA_PASSWORD") || ""
 
 # Renderer config
 config :jira,
