@@ -8,6 +8,7 @@ Not really too interesting.
 
 1. Clone repo
 2. Run `mix deps.get`
+3. Follow the [setup](#setup) steps below.
 3. Run `mix escript.build`
 4. Move `jira` to anywhere in `$PATH`
 
