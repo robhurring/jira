@@ -23,5 +23,5 @@ export JIRA_PASSWORD="s3cr1t"
 
 ## Usage
 
-* To run some ad-hoc jql: `jira jql "assignee = currentUser()" | jq .`
+* To run some ad-hoc jql: `jira search "assignee = currentUser()" | jq .`
 * To get a single issue: `jira issue DEV-1 | jq .`
