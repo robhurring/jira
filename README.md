@@ -1,6 +1,6 @@
 # Jira
 
-Small experiment using edgurgel/httpoison and mapping some of the Jira REST API calls. Used as a small CLI script to run ad-hoc JQL from the command line and parse with a tool like stedolan/jq
+Small experiment using [httpoison](https://github.com/edgurgel/httpoison) and mapping some of the Jira REST API calls. Used as a small CLI script to run ad-hoc JQL from the command line and parse with a tool like [jq](https://github.com/stedolan/jq)
 
 Not really too interesting.
 
